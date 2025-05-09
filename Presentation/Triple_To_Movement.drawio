@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2024-04-24T14:23:33.647Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="UBeG55MBOIAKHU1rt8lV" version="24.3.0" type="device">
+  <diagram name="Page-1" id="81rwZy2qw1NncvbwFNQ8">
+    <mxGraphModel dx="2510" dy="976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V2TJqfuc49L508lr4aZ0-16" value="&lt;b&gt;Translation Dictionary&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="110" y="240" width="160" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V2TJqfuc49L508lr4aZ0-2" target="V2TJqfuc49L508lr4aZ0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-2" value="Input:&lt;div&gt;Direction: 3&lt;br&gt;Triple: (3, 4, 5)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-155" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-3" value="[1, 1, True]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-9" value="[1, 1, False]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V2TJqfuc49L508lr4aZ0-10" target="V2TJqfuc49L508lr4aZ0-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-10" value="[-1, 1, False]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-11" value="[-1, 1, True]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-12" value="[-1, -1, True]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-13" value="[-1, -1, False]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="480" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-14" value="[1, -1, False]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-15" value="[1, -1, True]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="560" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V2TJqfuc49L508lr4aZ0-18" target="V2TJqfuc49L508lr4aZ0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-18" value="current = translation[direction - 1]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="345" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V2TJqfuc49L508lr4aZ0-19" target="V2TJqfuc49L508lr4aZ0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-19" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;Step 1:&lt;/span&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;Find direction in translation dictionary&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-216" y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V2TJqfuc49L508lr4aZ0-24" target="V2TJqfuc49L508lr4aZ0-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-24" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;Step 2:&lt;/span&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;Apply calculation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="350" y="160" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V2TJqfuc49L508lr4aZ0-25" target="V2TJqfuc49L508lr4aZ0-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-25" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; reverse = current[2]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if not reverse:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; move1 = triple[0] * current[0]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; move2 = triple[1] * current[1]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; else:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; move1 = triple[1] * current[0] # 3&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; move2 = triple[0] * current[1] # 4&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="V2TJqfuc49L508lr4aZ0-29" value="Step 3:&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Return (-3, 4)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="355" y="520" width="230" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
